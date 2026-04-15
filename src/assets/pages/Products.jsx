@@ -345,7 +345,11 @@ With a focus on quality, safety, and reliability, our manufacturing process incl
       id: 6,
       name: 'Steel Fabrications',
       image: '/images/Industries/solar.png',
-      description: `<p>Main fabrication category.</p>`
+      description: `<p>We are a leading manufacturer specializing in high-quality Steel Fabrication solutions for a wide range of industrial, infrastructure, and commercial applications. With advanced machinery and skilled craftsmanship, we deliver precision-engineered steel components that meet the highest standards of strength, durability, and performance.
+
+Our steel fabrication capabilities include cutting, bending, welding, machining, and assembling structural and customized steel products. We work with premium-grade raw materials to ensure superior quality and long service life, even in demanding environments.
+
+From structural frameworks and industrial components to customized fabrication projects, we provide end-to-end solutions tailored to client requirements. Every product undergoes strict quality control and is manufactured in compliance with industry standards to ensure reliability and safety.</p>`
     },
 
     { id: 7, name: 'Fencing', image: '/images/fence/f1.png', description: `
@@ -484,7 +488,11 @@ With a focus on quality, safety, and reliability, our manufacturing process incl
   IS-2629: Hot Dip Galvanizing of Iron & Steel
 </p>
       ` },
-    { id: 10, name: 'Fire Fighting Accessories', image: '/images/fire fighting/f1.png', description: `<p>Fire safety.</p>` },
+    { id: 10, name: 'Fire Fighting Accessories', image: '/images/fire fighting/f1.png', description: `<p>We manufacture a comprehensive range of high-quality Fire Fighting Accessories designed to ensure safety, reliability, and rapid response in emergency situations. Our products are fabricated using premium-grade steel and advanced manufacturing processes, delivering exceptional strength, durability, and long service life.
+
+Our fire fighting accessories are engineered to meet stringent safety standards and are suitable for use in industrial facilities, commercial buildings, power plants, and infrastructure projects. Each component is designed for optimal performance, easy installation, and compatibility with modern fire protection systems.
+
+We specialize in the fabrication of essential fire safety components such as hose cabinets, hydrant boxes, pipe supports, brackets, valve enclosures, and customized steel fittings, all manufactured with precision and attention to detail.</p>` },
     { id: 11, name: 'Solid Waste Management', image: '/images/waste/Ricksaw.png', description: `
       
       <p class="mb-1 font-medium">
