@@ -1,3 +1,5 @@
+import AboutUs from "./AboutUs";
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <section id="about" className="w-full py-20 bg-white">
@@ -39,10 +41,11 @@ const About = () => {
           </p>
 
           {/* Button */}
+          <Link to="/about" >
           <button className="mt-6 bg-[#0145F2] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#0135C2] transition">
             Learn More →
           </button>
-
+          </Link>
         </div>
 
       </div>

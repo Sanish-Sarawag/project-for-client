@@ -13,7 +13,7 @@ const Footer = () => {
           <img src="./images/RMSCO_steel.jpeg" alt="RMSCO" className="h-12 mb-4" />
           <p className="text-gray-400 leading-relaxed text-sm">
             RMSCO is a trusted name in delivering high-quality steel Products
-            for power, infrastructure, Solder & Heavy-Industrial sectors since 1970.
+            for power, infrastructure, Solar & Heavy-Industrial sectors since 1970.
           </p>
         </div>
 

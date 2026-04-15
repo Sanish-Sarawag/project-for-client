@@ -409,7 +409,7 @@ From structural frameworks and industrial components to customized fabrication p
       
       
       ` },
-    { id: 8, name: 'Railings (MS)', image: '/images/railings/r1.png', description: `
+    { id: 8, name: 'Railings (MS)', image: '/images/railings/r1.jpg', description: `
       
       <p class="mb-1">
   We manufacture different types of MS (Mild Steel) railing for various purposes like footpath, boundary wall, highway, etc., as per customized designs using square hollow sections, round tubes, flats, round bars, etc.

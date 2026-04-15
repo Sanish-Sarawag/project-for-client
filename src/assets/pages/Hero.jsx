@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { Link } from "react-router-dom";
+import Products from "./Products";
 
 const Hero = () => {
   const titleRef = useRef(null);
@@ -121,13 +122,15 @@ const Hero = () => {
           className="text-white text-base md:text-lg mt-7 max-w-xl leading-relaxed"
         >
           RMSCO delivers high-quality steel products for Power, Infrastructure,
-          Solder, and heavy-industry — built on trust and precision.
+          Solar, and heavy-industry — built on trust and precision.
         </p>
 
         <div ref={btnRef} className="flex flex-wrap gap-3 mt-8">
+          <Link to="/products">
           <button className="px-7 py-3 rounded font-semibold text-sm text-white bg-[#0145F2] hover:bg-[#0338c8] transition">
             Explore More →
           </button>
+          </Link>
 
           <Link to="/contact">
             <button className="px-7 py-3 rounded font-semibold text-sm text-white border border-white/50 hover:bg-white/10 transition">

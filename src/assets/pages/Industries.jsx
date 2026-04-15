@@ -14,7 +14,7 @@ const data = [
       
       {
         name: "High Voltage / Transmission Line",
-        img: "/images/Industries/Tower.png",
+        img: "/images/about/a6.png",
         desc: "High quality steel sheets.",
       },
     ],

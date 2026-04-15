@@ -2,7 +2,9 @@ const clients = [
   { name: "Client 1", logo: "/images/LOGOS/logo_0.png" },
   { name: "Client 2", logo: "/images/LOGOS/National_Thermal_Power_logo.svg.png" },
   { name: "Client 3", logo: "/images/LOGOS/indianoil.jpg" },
-  { name: "Client 4", logo: "/images/LOGOS/Larsen-Toubro.webp" },
+  { name: "Client 4", logo: "/images/LOGOS/eil.jpg" },
+  { name: "Client 5", logo: "/images/LOGOS/airport png.webp" },
+  { name: "Client 6", logo: "/images/LOGOS/hpcl.png" },
 ];
 
 const ClientMarquee = () => {
@@ -35,12 +37,12 @@ const ClientMarquee = () => {
           {doubled.map((client, i) => (
             <div
               key={i}
-              className="flex items-center justify-center px-16 h-20 border-r border-gray-200 flex-shrink-0 group cursor-default"
+              className="flex items-center justify-center px-16 h-28 border-r border-gray-200 flex-shrink-0 group cursor-default"
             >
               <img
                 src={client.logo}
                 alt={client.name}
-                className="h-10 w-auto object-contain opacity-100 group-hover:opacity-100  transition-all duration-300"
+                className="h-16 w-auto object-contain opacity-100 group-hover:opacity-100  transition-all duration-300"
               />
             </div>
           ))}

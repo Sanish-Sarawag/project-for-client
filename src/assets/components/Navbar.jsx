@@ -32,7 +32,7 @@ const about = [
   "Quality Control",
   "Clients",
   "Corporate Social Responsibility",
-  "News",
+
 ];
 
 export default function Navbar() {

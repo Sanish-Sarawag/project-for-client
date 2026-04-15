@@ -318,7 +318,6 @@ Supplied to all corners of this huge country right from Tamil Nadu to Jammu & Ka
 <h3 class="text-lg font-medium mb-4">ISO Certification 9001</h3>
 <h3 class="text-lg font-medium mb-4">North Western Railway Jaipur</h3>
 <h3 class="text-lg font-medium mb-4">Hindustan Aeronautics Ltd. Aircraft Division, NASIK.</h3>
-<h3 class="text-lg font-medium mb-4">Power Grid of India Ltd. (In Process)</h3>
 <h3 class="text-lg font-medium mb-4">Other State Electricity Companies like etc. (are in Process)</h3>
       `,
     },
@@ -366,19 +365,7 @@ Supplied to all corners of this huge country right from Tamil Nadu to Jammu & Ka
       `,
     },
 
-    News: {
-      title: "News",
-      img: "/images/news/n1.png",
-      img2: "/images/news/n2.png",
-      img3: "/images/news/n3.png",
-      img4: "/images/news/n4.png",
-      desc: `
-        <h3 class="text-xl font-semibold mb-2">Latest News</h3>
-        <p class="mb-4">
-          Stay updated with RMSCO's latest achievements and milestones.
-        </p>
-      `,
-    },
+   
   };
 
   useEffect(() => {
