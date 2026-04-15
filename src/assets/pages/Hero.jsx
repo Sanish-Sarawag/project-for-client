@@ -66,7 +66,7 @@ const Hero = () => {
       {/* Background */}
       <div
         ref={bgRef}
-        className="absolute inset-0 bg-[url('/images/about/a1.png')] bg-cover bg-center pointer-events-none"
+        className="absolute inset-0 bg-[url('/images/oil-and-gas-hero-banner.webp')] bg-cover bg-center pointer-events-none"
         style={{ filter: "brightness(0.75) saturate(0.9)" }}
       />
 
