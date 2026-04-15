@@ -57,7 +57,10 @@ Our solar infrastructure solutions are designed for easy installation, optimal p
       {
         name: "RMSCO Telecom Tower",
         img: "/images/Industries/Tower.png",
-        desc: "Producing various heights of Towers (Pipe/Lattice) Lattice/Pipe Mast Producing as BSNL specification also.",
+        desc: `Producing various heights of Towers (Pipe/Lattice) Lattice/Pipe Mast Producing as BSNL specification also.
+        We manufacture high-quality Telecommunication Towers designed to support reliable and efficient communication networks. Built with precision using premium-grade steel, our towers ensure exceptional strength, stability, and durability, even in challenging environmental conditions.
+
+Our telecommunication towers are engineered to accommodate various communication equipment such as antennas, transmitters, and receivers, making them ideal for modern telecom infrastructure. We offer a wide range of tower types including lattice towers, monopoles, guyed towers, and rooftop towers, tailored to meet diverse project requirements.`,
       },
     ],
   },
