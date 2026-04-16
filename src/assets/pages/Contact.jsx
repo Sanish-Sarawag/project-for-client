@@ -22,7 +22,9 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:5000/send-message", formData);
+      // 🔥 CHANGE ONLY THIS LINE (backend URL)
+      await axios.post("https://project-for-client-2.onrender.com", formData);
+
       alert("Message Sent Successfully!");
 
       setFormData({
@@ -117,6 +119,7 @@ const Contact = () => {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Your Name"
+                required
                 className="w-full border border-gray-300 rounded-md px-4 py-3 outline-none focus:ring-2 focus:ring-[#0145F2]"
               />
 
@@ -126,11 +129,12 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="Your Email"
+                required
                 className="w-full border border-gray-300 rounded-md px-4 py-3 outline-none focus:ring-2 focus:ring-[#0145F2]"
               />
 
               <input
-                type="number"
+                type="tel"
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
@@ -144,6 +148,7 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleChange}
                 placeholder="Your Message"
+                required
                 className="w-full border border-gray-300 rounded-md px-4 py-3 outline-none focus:ring-2 focus:ring-[#0145F2]"
               ></textarea>
 
