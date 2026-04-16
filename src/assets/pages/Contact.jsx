@@ -23,7 +23,7 @@ const Contact = () => {
 
     try {
       // 🔥 CHANGE ONLY THIS LINE (backend URL)
-      await axios.post("https://project-for-client-2.onrender.com", formData);
+      await axios.post("https://project-for-client-2.onrender.com/send-message", formData);
 
       alert("Message Sent Successfully!");
 
