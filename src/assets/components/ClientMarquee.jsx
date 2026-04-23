@@ -42,7 +42,7 @@ const ClientMarquee = () => {
               <img
                 src={client.logo}
                 alt={client.name}
-                className="h-16 w-auto object-contain opacity-100 group-hover:opacity-100  transition-all duration-300"
+                className="h-20 w-auto object-contain opacity-100 group-hover:opacity-100  transition-all duration-300"
               />
             </div>
           ))}

@@ -130,7 +130,7 @@ With a focus on quality, safety, and reliability, our manufacturing process incl
     {
       id: 2,
       name: 'Cable Trays',
-      image: '/images/CableTrayImg/cb.jpg',
+      image: '/images/CableTrayImg/cb.png',
       description: `<p>Cable Tray Structure is used to support insulated electric cables used for power distribution and communication. Cable trays are used as an alternative to open wiring systems, and are commonly used for cable management in commercial and industrial constructions.</p>
       <h3 class="text-xl font-semibold mb-2">Ladder Type</h3>
       <p>It is a structure consisting of two Horizontal Side Members connected by individual Vertical Members Called Rung.</p>
@@ -158,7 +158,7 @@ With a focus on quality, safety, and reliability, our manufacturing process incl
   <strong>Finish:</strong> Painted, Pre Galvanized, Hot Dip Galvanized or Powder Coated
 </p>
   <h3 class="text-lg pt-3 font-bold mb-4">Perforated Type Cable Tray And Accessories</h3>
-      <img class="w-auto h-[400px] rounded-xl" src="/images/CableTrayImg/front.jpg" />
+      <img class="w-auto h-[400px] rounded-xl" src="/images/CableTrayImg/im.jpeg" />
 <h3 class="text-lg pt-3 font-medium mb-4">Specifications:</h3>
 
 <p class="mb-2">
@@ -566,6 +566,10 @@ We specialize in the fabrication of essential fire safety components such as hos
     if (location.state?.productId !== undefined) {
       setSelectedProductId(location.state.productId);
     }
+    window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
   }, [location.state]);
 
   const selectedProduct = products[selectedProductId];

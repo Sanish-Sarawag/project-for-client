@@ -5,6 +5,7 @@ import Hero from "./assets/pages/Hero";
 import About from "./assets/pages/About";
 import ClientMarquee from "./assets/components/ClientMarquee";
 import Footer from "./assets/components/Footer";
+import ScrollToTop from "./assets/components/ScrollToTop";
 
 // New pages
 import Products from "./assets/pages/Products";
@@ -17,6 +18,7 @@ import AboutUs from "./assets/pages/AboutUs"
 const Home = () => {
   return (
     <>
+    
       <Hero />
       <ClientMarquee />
       <About />
@@ -27,6 +29,7 @@ const Home = () => {
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
 
       <Routes>
