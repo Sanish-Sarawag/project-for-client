@@ -55,11 +55,24 @@ const ClientMarquee = () => {
           to { transform: translateX(-50%); }
         }
       `}</style>
-      <div className="items-center space-y-2 text-2xl justify-center text-center font-bold mt-10">
-        <h1 className="text-5xl">RMSCO</h1> <br />
-        <p>Reliability of Material & Satisfaction of Customer</p>
-        <p className="text-blue-400">ISO - 9001, 14001, 45001 - Certified</p>
-      </div>
+      <div className="flex flex-col items-center space-y-2 text-2xl text-center font-bold mt-10">
+  <img
+    className="h-14 mb-3"
+    src="./images/RMSCO_steel.jpeg"
+    alt="RMSCO"
+  />
+
+  <p>
+    <span className="text-blue-500">R</span>eliability of{" "}
+    <span className="text-blue-500">M</span>aterial &{" "}
+    <span className="text-blue-500">S</span>atisfaction of{" "}
+    <span className="text-blue-500">CO</span>nsumer
+  </p>
+
+  <p className="text-blue-400">
+    ISO - 9001, 14001, 45001 - Certified
+  </p>
+</div>
 
     </section>
   );

@@ -24,7 +24,7 @@ export default function Products() {
 <h3 class="text-lg font-semibold mt-4">
   Our Expertise in Substain Structures
 </h3>
-<img class="w-12 h-12" src="/images/about/a1.png" />
+
 
 <p class="mb-2">
   Our specialization in substain structures encompasses a diverse range of designs and applications.
@@ -131,7 +131,7 @@ With a focus on quality, safety, and reliability, our manufacturing process incl
       id: 2,
       name: 'Cable Trays',
       image: '/images/CableTrayImg/cb.png',
-      description: `<p>Cable Tray Structure is used to support insulated electric cables used for power distribution and communication. Cable trays are used as an alternative to open wiring systems, and are commonly used for cable management in commercial and industrial constructions.</p>
+      description: `<p>Cable Tray Structure is used to support insulated electric cables which are used for power distribution and communication. Cable trays are used as an alternative to open wiring systems, and are commonly used for cable management in commercial and industrial constructions.</p>
       <h3 class="text-xl font-semibold mb-2">Ladder Type</h3>
       <p>It is a structure consisting of two Horizontal Side Members connected by individual Vertical Members Called Rung.</p>
       <h2>Ladder Type Cable Tray And Accessories</h2>
@@ -256,15 +256,53 @@ With a focus on quality, safety, and reliability, our manufacturing process incl
       image: '/images/EarthingLighting/m1.png',
       description: `
       <h3 class="text-xl font-semibold mb-2">Earthing Products</h3>
-      <p>RMSCO offers a wide selection of earth bars and disconnect that links which provide a single point earthing and bonding location. All earth bars and disconnect links are supplied with a plastic "non-corrosive" base suitable for exposed installation.</p>
-      <h3 class="text-lg font-semibold mt-4">Copper Bonded Rods</h3>
-      <p>Our RMSCO Copper-bonded electrode is CPRI Tested made of molecular bonding of pure 99.9% electrolytic copper on low carbon steel core rod.</p>
-      <p>It provides Superior Resistance against Oxidation and have a better product life in comparison with simple Galvanized Electrode.</p>
+      <p>At RMSCO we offer a complete range of Earthing Materials used widely in Earthing systems and playing a vital role in all electrical systems. We supply Earthing Material as per client specifications duly supported by in House Test Certificates and NABL Labs Test Reports. Our product range includes Earthing Pipes Electrodes, Galvanized Strips, Earthing Plates, Earthing Wire and Manhole Covers etc.</p>
+      <p>We specialize in On Time Delivery, Customized Specified Material duly inspected by respective Inspection Authority.</p>
+      
       <ul>
-        <li>• Excellent Electrical Capacity</li>
-        <li>• Superior corrosion resistance</li>
-        <li>• Standard Sizes: 40mm, 32mm, 20mm.</li>
-        <li>• Standard Length: 3mtr, 6mtr.</li>
+        <li>• Galvanized Steel Flats MS Steel Rods</li>
+        <li>• Pipe Electrode</li>
+        <li>• Copper Rods</li>
+        <li>• Copper Flats</li>
+        <li>• Air Terminal Rods</li>
+        <li>• ROD Electrode</li>
+        <li>• Counterpoise Earthing</li>
+      
+      </ul>
+
+      <h3 class="text-lg font-semibold mt-4">Pipe Electrode</h3>
+      <ul>
+        <li>• Perforated Galvanized Pipe (Class A/B/C) of Length of 3 mtr or customized with Clamp welded at one end and Diagonal cut or conical at the other end.</li>
+        <li>• Generally of following Dia's depending upon the voltage:</li>
+        <li>  25mm, 40mm, 50mm, 100mm</li>
+        <li>• Cl pipe is also available of length 3 mtr.</li>
+      
+      </ul>
+      <h3 class="text-lg font-semibold mt-4">ROD Electrode</h3>
+      <ul>
+       <li>Used in Earthing of Lightning Poles, Pipe Earth Electrode (in treated earth pit), Rod Earth Electrode.</li>
+       <li>Standard Length 3 mtr or customized Galvanized for Treated earth pits:</li>
+        <li>•  40mm, 20mm</li>
+      
+      </ul>
+      <h3 class="text-lg font-semibold mt-4">Copper Bonded Rods</h3>
+      <ul>
+       <li>Our RMSCO Copper-bonded electrode is CPRI Tested made of molecular bonding of pure 99.9% electrolytic copper on low carbon steel core rod.</li>
+       <li>It provides Superior Resistance against Oxidation and have a better product life in comparison with simple Galvanized Electrode.</li>
+        <li>•  Superior Corrosion Resistance</li>
+        <li>•  Excellent Electrical Capability</li>
+        <li>•  Standard Sizes: 40mm, 32mm, 20mm</li>
+        <li>•  Standard Length: 3 mtr, 6 mtr</li>
+      
+      </ul>
+      <h3 class="text-lg font-semibold mt-4">Galvanized Steel Flats</h3>
+      <ul>
+       <li>•  Hot Dip Galvanized MS Flats. Used in all Earthing Solutions. The size depend upon the Voltage.</li>
+       <li>•  For Conductor above ground & Earthing leads (for equipment, for columns & aux. structures), For Earthing of indoor LT panels, Control panels and out door marshalling boxes, MOM boxes, Junction boxes & Lightning Panels etc.</li>
+        <li>•  With Galvanized Coating thickness of Minimum 86 microns(610gm/mtr2)</li>
+        <li>•  Standard sizes are as follows:</li>
+        <li>  75 x 12 mm, 75 x 10mm, 50 x 10mm, 50 x 8mm, 50 x 6mm, 25 x 3mm etc..</li>
+        
       
       </ul>
       `
@@ -394,6 +432,20 @@ From structural frameworks and industrial components to customized fabrication p
   <strong>Applications:</strong> State/National Borders, Defense Lands, Large Farms, Solar Parks etc.
 </p>
 
+<h3 class="text-lg font-semibold mt-4">Various Types of Fencing</h3>
+<ul>
+  <li>• Delay Rated Fence</li>
+  <li>• High Security 358 Fence</li>
+  <li>• Wall Fence</li>
+  <li>• Electric Fence/Solar Fence</li>
+  <li>• Welded Mesh Fence</li>
+  <li>• Sand Fence</li>
+  <li>• Decorative Fence</li>
+  <li>• Temporary Fence</li>
+  <li>• Chain Link Fence</li>
+  <li>• Rapid Deployment Fence</li>
+</ul>
+
 <!-- Optional Image Section -->
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
   <div>
@@ -412,22 +464,59 @@ From structural frameworks and industrial components to customized fabrication p
     { id: 8, name: 'Railings (MS)', image: '/images/railings/r1.jpg', description: `
       
       <p class="mb-1">
-  We manufacture different types of MS (Mild Steel) railing for various purposes like footpath, boundary wall, highway, etc., as per customized designs using square hollow sections, round tubes, flats, round bars, etc.
+  Handrails are commonly used to guard platforms, stairways, walkways and other areas where safety is the primary concern. Pinax offers a wide range of handrails which include Straight Handrails, Angular handrails or Circular handrails. Pinax Handrail Manufacturer in India as per client specification, and it is fabricated by using mild steel pipes, angles, flats and other structural profiles. Pinax provides a complete solution for handrail Manufacturer & Suppliers in India, which includes base plates, toe plates, bends and connectors. The handrails are supplied in the finish of self color, Hot Dip Galvanized and Painting.
 </p>
 
 <p class="mb-1">
-  <strong>Finish:</strong> Available in both galvanized and painted.
+  <strong>Our Handrail Standards are suitable for use in all types of industry and can be made to order:</strong> They are ideal for any internal or external area requiring a stable edge protection barrier or where protection is needed against stationary or moving machinery. Typical applications include:
 </p>
 
+<ul>
+  <li>• Platforms</li>
+  <li>• Mezzanines</li>
+  <li>• Stairways</li>
+  <li>• Gantries</li>
+</ul>
+
 <p class="leading-snug">
-  <strong>Features:</strong> Can be used for parks, river banks.
+  <strong>Our Handrail Systems are supplied in the following Shank sizes:</strong>
 </p>
+      <ul>
+      <li>• 25mm NB Shank (33.7mm o/dx3.2mm wall)</li>
+      <li>• 32mm NB Shank (42.4mm o/dx3.2mm wall)</li>
+      <li>• 40mm NB Shank (48.3mm o/dx3.2mm wall) and have various ball sizes to suit.</li>
+      <li>• 25mm NB, 32mm NB and 40mm NB tubular handrail.</li>
       
+</ul>
+<p class="leading-snug">
+  <strong>GI:</strong>
+</p>
+      <ul>
+      <li>• We procure MS pipe from reputed manufacture and do in-house Hot Dip Galvanizing get GI Pipe ready as a finished products. GI Pipe is supplied in standard length of 5 to 6 metre or as per client requirement.</li>
+      
+      
+</ul>
+<p class="leading-snug">
+  <strong>GI Chequred plate:</strong>
+</p>
+      <ul>
+      <li>• We procure MS Chequred plate from reputed manufacture and do inhouse Hot Dip Galvanized and get GI Chequred plate ready as a finished products. Chequired plate is procured in standard length of 6000x1250 mm and the same is fabricated as per client specification.</li>
+      
+      
+</ul>
+<p class="leading-snug">
+  <strong>Rolled Products (MS Flat, Round bar, Square bar, etc):</strong>
+</p>
+      <ul>
+      <li>• We have our own Rolling mills and we manufactures MS Flat, Round bar, square bar etc. We used our in-house manufacture MS flat in manufacturing of Gratings. We are having manufacturing license of IS 2062,IS 1786 for manufacturing of rolling products.</li>
+      
+      
+</ul>
       ` },
     { id: 9, name: 'Gratings', image: '/images/gratings/g1.png', description: `
       
       <p class="leading-snug">
-  A grating is any regularly spaced collection of essentially identical, parallel, elongated elements. Gratings usually consist of a single set of elongated elements, but can consist of two sets, in which case the second set is usually perpendicular to the first.
+  Gratings are assembled grids of parallel bearings bars with crossbars used to space and hold the bearing bar erect. The assembled grid is used to cover of floor any of various openings. Gratings provide a surface but allow air, light, heat, sound and water to pass through. It is strong and durable and maintenance free. Electro Forged Gratings are manufactured using Electro Forged machine with the flexibility and capacity of welding an extensive range of bearing bar of size from 25x3 mm upto 50x5 mm and crossbar size from 6 mm to 8 mm.
 </p>
 <h3 class="text-lg font-medium mb-2">
   Grating Specifications

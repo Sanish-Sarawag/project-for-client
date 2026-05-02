@@ -57,7 +57,7 @@ const Footer = () => {
 
         {/* Services */}
         <div>
-          <h3 className="text-lg font-semibold mb-4">Our Services</h3>
+          <h3 className="text-lg font-semibold mb-4">Our Products</h3>
           <ul className="space-y-2 text-gray-400 text-sm">
             <li>Steel Manufacturing</li>
             <li>Custom Fabrication</li>

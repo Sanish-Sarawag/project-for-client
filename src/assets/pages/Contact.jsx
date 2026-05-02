@@ -22,18 +22,33 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      // 🔥 CHANGE ONLY THIS LINE (backend URL)
-      await axios.post("https://project-for-client-2.onrender.com/send-message", formData);
+      const res = await axios.post(
+        "https://project-for-client-2.onrender.com/send-message",
+        formData
+      );
 
-      alert("Message Sent Successfully!");
+      // ✅ ONLY TRACK IF SUCCESS
+      if (res.data.success) {
 
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        message: "",
-      });
+        // 🔥 GOOGLE ADS CONVERSION TRACKING
+        if (window.gtag) {
+          window.gtag('event', 'conversion', {
+            send_to: 'AW-695398934/XXXXXXXXXX' // 👈 PUT YOUR LABEL HERE
+          });
+        }
+
+        alert("Message Sent Successfully!");
+
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+      }
+
     } catch (error) {
+      console.error(error);
       alert("Failed to send message");
     }
   };
@@ -69,7 +84,6 @@ const Contact = () => {
               
               <div className="flex flex-col items-left gap-3">
                 <span className="font-bold text-black">Head Office & Works</span>
-                
                 <span>
                   D-80 Road - 7, Vishwakarma Industrial Area, Jaipur, Rajasthan
                   - 302013
@@ -100,7 +114,6 @@ const Contact = () => {
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>
@@ -164,10 +177,10 @@ const Contact = () => {
                 <h2>
                   We regularly hire candidates for Job.
                   <br /> Contact Us / Share your CV on: <br />
-                  <h3 className="text-blue-500">
+                  <span className="text-blue-500">
                     job@rmscoindia.com <br />
                     +91 8290233909
-                  </h3>
+                  </span>
                 </h2>
               </div>
 

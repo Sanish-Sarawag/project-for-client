@@ -121,7 +121,7 @@ const Hero = () => {
           ref={descRef}
           className="text-white text-base md:text-lg mt-7 max-w-xl leading-relaxed"
         >
-          RMSCO delivers high-quality steel products for Power, Infrastructure,
+          We delivers high-quality steel products for Power, Infrastructure,
           Solar, and heavy-industry — built on trust and precision.
         </p>
 
